@@ -1,0 +1,5 @@
+# Python virtual environment
+.venv
+
+# Private keys to wallet
+.env
