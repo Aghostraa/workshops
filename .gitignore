@@ -3,3 +3,5 @@
 
 # Private keys to wallet
 .env
+
+decoded_labels.parquet
