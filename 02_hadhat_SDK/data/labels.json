@@ -1,0 +1,20 @@
+[
+  {
+    "address": "0x2006d56F8DDB210ad009cf8d71aEe4F6488cFA49",
+    "chain_id": "eip155:1",
+    "tags": {
+      "contract_name": "FTT/ETH PriceFeed",
+      "owner_project": "chainlink",
+      "usage_category": "oracle"
+    }
+  },
+  {
+    "address": "0x86e345D4113E1105053A81240C75b56B437dA6Ef",
+    "chain_id": "eip155:1",
+    "tags": {
+      "contract_name": "KRW/USD PriceFeed",
+      "owner_project": "chainlink",
+      "usage_category": "oracle"
+    }
+  }
+]

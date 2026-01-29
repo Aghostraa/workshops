@@ -1,4 +1,4 @@
-address,origin_key,owner_project,usage_category,contract_name
+address,chain_id,owner_project,usage_category,contract_name
 0xb4c4a493AB6356497713A78FFA6c60FB53517c63,ethereum,chainlink,oracle,CRV/USD PriceFeed
 0x7f67Ca2ce5299a67acd83D52A064C5b8e41dDb80,ethereum,chainlink,oracle,CRV/ETH PriceFeed
 0xDf30249744A419891f822ea4a9E80cd76d7Fbd23,ethereum,chainlink,oracle,SOL/USD PriceFeed

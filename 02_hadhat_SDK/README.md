@@ -29,7 +29,7 @@ A minimal, hands‑on workshop that takes a CSV list of contracts → converts t
 First get your OLI API KEY here: https://www.openlabelsinitiative.org/developer
 
 ```bash
-cd workshop-oli-1h
+cd 02_hadhat_SDK
 npm install
 ```
 
@@ -88,15 +88,16 @@ There are multiple ways you can submit your label:
 
 ```bash
 npx hardhat oli:submit-label 0xE592427A0AEce92De3Edee1F18E0157C05861564 eip155:1
-  '{"contract_name":"OnChainGM V2","owner_project":"onchaingm"}'
+'{"contract_name":"OnChainGM V2","owner_project":"onchaingm"}'
 ```
+Make sure they are in one line or you'll get arg position errors
 
 CAIP‑10:
 
 ```bash
-npx hardhat oli:submit-label eip155:1:0xE592427A0AEce92De3Edee1F18E0157C05861564
-  '{"contract_name":"OnChainGM V2","owner_project":"onchaingm"}'
+npx hardhat oli:submit-label eip155:1:0xE592427A0AEce92De3Edee1F18E0157C05861564 '{"contract_name":"OnChainGM V2","owner_project":"onchaingm"}'
 ```
+Make sure they are in one line or you'll get arg position errors
 
 SubTask 3: Submit the rest of your labels
 
@@ -150,7 +151,6 @@ node scripts/read-search.js usage_category oracle eip155:1 --attester 0xYourTrus
 - Show the bulk attestation UI on the live OLI website
 - Upload a tiny CSV (3–5 rows)
 - Submit on‑chain
-- Immediately query via `oli-sdk` / UI to confirm
 
 ---
 
@@ -179,9 +179,3 @@ workshop-oli-1h/
 
 
 ---
-
-## Extensions (if time remains)
-
-- Add a CSV upload in the UI
-- Add a “search by tag” input to the UI
-- Add chain filters or table sorting
