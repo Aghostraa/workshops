@@ -1,0 +1,14 @@
+{
+  "name": "oli-workshop-hardhat",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "attest:bulk": "hardhat oli:submit-label-bulk ../data/labels.json",
+    "validate:one": "hardhat oli:validate-label"
+  },
+  "dependencies": {
+    "@openlabels/oli-hardhat": "^0.1.1",
+    "dotenv": "^16.4.5",
+    "hardhat": "^3.0.17"
+  }
+}
