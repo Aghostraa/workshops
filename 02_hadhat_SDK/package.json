@@ -1,0 +1,15 @@
+{
+  "name": "workshop-oli-1h",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "csv:to-labels": "node scripts/csv-to-labels.js data/chainlink-eth-datafeeds-001.csv",
+    "read:labels": "node scripts/read-labels.js",
+    "read:search": "node scripts/read-search.js"
+  },
+  "dependencies": {
+    "@openlabels/oli-sdk": "^0.1.0",
+    "csv-parse": "^5.5.0",
+    "dotenv": "^16.4.5"
+  }
+}

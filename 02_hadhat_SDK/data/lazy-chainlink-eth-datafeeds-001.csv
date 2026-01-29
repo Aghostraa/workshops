@@ -1,0 +1,8 @@
+chain id,addres,contract_name,Owner Project,usage_category,is_contract,deployment_tx,Unrecognized Column
+ethereum,0x6DBD8100fBbfF754831Aa90A53c466d431651885,Bored Ape Yacht Club PriceFeed,chainlink,oracle,true,0x123...,,,ignored
+1,0x6CeA38508B186DE36AAfd0f3B513E708691bc0C4,CACHE Gold Reserves PriceFeed,chainlnk,orcale,,,,ignored
+ethereum,0x1C026C25271c1bFbA95B65c848F734a23eA62D4e,"CAKE/USD, PriceFeed",chainlink,oracle,1,,,,ignored
+ethereum,0x720192921a4b6fb026fA52bf03F991b65b740147,CTSI/ETH PriceFeed,chainlinnk,oracle,1,0xabc...,,,ignored
+1,0xf1F7F7BFCc5E9D6BB8D9617756beC06A5Cbe1a49,CVX/ETH PriceFeed,chainlink,oracl,yes,,,,ignored
+ethereum,0xInvalidAddress,CloneX PriceFeed,chainlink,oracle,no,,,,ignored
+ethereum,,Cool Cats PriceFeed,chainlink,oracle,true,,,,ignored
